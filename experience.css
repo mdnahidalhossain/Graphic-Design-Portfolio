@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F3F0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+header {
+    padding: 36px 0px 36px 0px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 1096px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navigation {
+    /* background-color: red; */
+    /* display: flex; */
+    margin-left: 140px;
+}
+
+.navigation li {
+    margin-right: 45px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: black;
+}
+
+.navigation ul a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.container {
+    margin-left: 278px;
+}
+
+.experience-section {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.number {
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-weight: 600;
+}
+
+#desc-1 {
+    width: 785px;
+    font-size: 30px;
+}
+
+#exp-1 {
+    margin-left: 50px;
+
+}
+
+#desc-2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 777px;
+}
+
+#exp-2 {
+    margin-right: 50px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 21px 30px 21px 30px;
+    background: none;
+    width: 178px;
+    display: block;
+}
+
+button:hover {
+    background: #262626;
+    color: white;
+    cursor: pointer;
+}
+
+#s-label {
+    margin-top: 120px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.socials, ul, li, a {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    margin-bottom: 100px;
+}
+
+#s-icon {
+    
+    width: 60px;
+    margin-right: 45px;
+}

@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F3F0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+header {
+    padding: 36px 0px 36px 0px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 1096px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navigation {
+    background-color: red;
+    display: flex;
+    margin-left: 140px;
+}
+
+.navigation li {
+    margin-right: 45px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: black;
+}
+
+.navigation ul a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    margin-left: 278px;
+}
+
+.intro-section {
+    display: flex;
+    margin-top: 160px;
+}
+
+.intro {
+    width: 830px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#label {
+    font-size: 40px;
+    color: rgb(121, 121, 121);
+}
+
+#desc-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+button {
+    padding: 21px 30px 21px 30px;
+    background: none;
+    width: 178px;
+}
+
+button:hover {
+    background: #262626;
+    color: white;
+    cursor: pointer;
+}
+
+.intro .down-arrow {
+    margin-top: 50px;
+    position: absolute;
+    bottom: 5em;
+    width: 1em;
+    animation: moveArrow 1s alternate-reverse infinite;
+    stroke: black;
+}
+
+
+.about-section {
+    display: flex;
+    margin-top: 392px;
+    margin-bottom: 300px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.number {
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#desc-2 {
+    width: 811px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#my-image {
+    width: 414px;
+}
+
+#intro-img {
+    width: 414px;
+    margin-left: 44.7px;
+}
+
+#my-img {
+    width: 414px;
+    margin-left: 139px;
+}
+
+.project-1 {
+    margin-bottom: 120px;
+}
+
+.project-section {
+    display: flex;
+}
+
+.p-container {
+    margin-left: 60px;
+}
+
+#desc-3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 811px;
+}
+
+#coffee-img {
+    margin-left: 18.2px;
+}
+
+.content-1 {
+    margin-bottom: 300px;
+}
+
+#desc-4 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 536px;
+}
+
+#desc-5 {
+    font-size: 30px;
+    width: 811px;
+}
+
+span {
+    font-weight: 600;
+}
+
+.experience-section {
+    display: flex;
+    margin-top: 120px;
+}
+
+#desc-5 {
+    width: 785px;
+    font-size: 30px;
+}
+
+#label-img-2 {
+    margin-left: 17px;
+
+}
+
+#desc-6 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 777px;
+}
+
+.bottom-section {
+    margin-top: 300px;
+    margin-bottom: 363px;
+}
+
+#btn-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#s-label {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.socials, ul, li, a {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    margin-bottom: 100px;
+}
+
+#s-icon {
+    width: 60px;
+    margin-right: 45px;
+}
+
+
+@-webkit-keyframes moveArrow {
+    from {
+      transform: translateY(-30px);
+    }
+    to {
+      transform: translate(0);
+    }
+  }
+  @keyframes moveArrow {
+    from {
+      transform: translateY(-30px);
+    }
+    to {
+      transform: translate(0);
+    }
+}
